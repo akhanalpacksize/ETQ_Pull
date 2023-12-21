@@ -68,36 +68,29 @@ def fetch_data(count, app_name, f_name, need_token=False):
 def process_api(app_name, f_name):
     all_data_for_api = []  # List to store all fetched data for a specific app_name and f_name
     valid_response_count = 0
-    # Iterate over the count for the given app_name and f_name until we get 10 valid responses or reach max_count
 
     counter = 1
-    max_count = 2
+    max_count = 20
     with ThreadPoolExecutor(max_workers=500) as executor:
         args_list = [(count, app_name, f_name) for count in range(1, max_count + 1)]
         result_gen = executor.map(lambda args: fetch_data(*args), args_list)
 
     for result in result_gen:
-        res = deepcopy(result_gen.__next__())
         count, app_name, f_name = result.get('doc_id'), result.get('app_name'), result.get('form_name')
         counter += 1
-        # print(res['form_name'], res[''])
-        # break
-        if res.get('success'):
-            all_data_for_api.append(res)
+
+        if result.get('success'):
+            all_data_for_api.append(result)
             valid_response_count += 1
             if valid_response_count == 10:
                 break
         else:
-            print("Else Condition", counter, max_count, f"""{ (
-                    app_name + "->" + f_name not in [app.get('app_name') + "->" + app.get('form_name') for app in
-                                                     all_data_for_api])}")""")
             if counter == max_count and (
                     app_name + "->" + f_name not in [app.get('app_name') + "->" + app.get('form_name') for app in
                                                      all_data_for_api]):
                 print(f"Error processing API {count} for {app_name}/{f_name}")
-                # print("appending: ", etq_doc)
-                print("Res: ", res)
-                all_data_for_api.append(res)
+                all_data_for_api.append(result)
+
     if len(all_data_for_api) > 0:
         df = pd.DataFrame(all_data_for_api)
         if not os.path.exists(output_file):
@@ -112,6 +105,52 @@ def process_api(app_name, f_name):
             df.to_json(output_file_json, orient='records', lines=True, mode='a')
         del df
         del all_data_for_api
+    # all_data_for_api = []  # List to store all fetched data for a specific app_name and f_name
+    # valid_response_count = 0
+    # # Iterate over the count for the given app_name and f_name until we get 10 valid responses or reach max_count
+    #
+    # counter = 1
+    # max_count = 10
+    # with ThreadPoolExecutor(max_workers=500) as executor:
+    #     args_list = [(count, app_name, f_name) for count in range(1, max_count + 1)]
+    #     result_gen = executor.map(lambda args: fetch_data(*args), args_list)
+    #
+    # for result in result_gen:
+    #     res = deepcopy(result_gen.__next__())
+    #     count, app_name, f_name = result.get('doc_id'), result.get('app_name'), result.get('form_name')
+    #     counter += 1
+    #     # print(res['form_name'], res[''])
+    #     # break
+    #     if res.get('success'):
+    #         all_data_for_api.append(res)
+    #         valid_response_count += 1
+    #         if valid_response_count == 10:
+    #             break
+    #     else:
+    #         # print("Else Condition", counter, max_count, f"""{ (
+    #         #         app_name + "->" + f_name not in [app.get('app_name') + "->" + app.get('form_name') for app in
+    #         #                                          all_data_for_api])}")""")
+    #         if counter == max_count and (
+    #                 app_name + "->" + f_name not in [app.get('app_name') + "->" + app.get('form_name') for app in
+    #                                                  all_data_for_api]):
+    #             print(f"Error processing API {count} for {app_name}/{f_name}")
+    #             # print("appending: ", etq_doc)
+    #             # print("Res: ", res)
+    #             all_data_for_api.append(res)
+    # if len(all_data_for_api) > 0:
+    #     df = pd.DataFrame(all_data_for_api)
+    #     if not os.path.exists(output_file):
+    #         df.to_csv(output_file, index=False, header=True,
+    #                   columns=["json_data", "app_name", "form_name", "doc_id", "success", "timestamp"])
+    #     else:
+    #         df.to_csv(output_file, mode="a", index=False, header=False,
+    #                   columns=["json_data", "app_name", "form_name", "doc_id", "success", "timestamp"])
+    #     if not os.path.exists(output_file_json):
+    #         df.to_json(output_file_json, orient='records', lines=True)
+    #     else:
+    #         df.to_json(output_file_json, orient='records', lines=True, mode='a')
+    #     del df
+    #     del all_data_for_api
     # return all_data_for_api
 
 
@@ -131,7 +170,7 @@ process_app_data()
 def test_csv():
     df = pd.read_csv(output_file)
     counter = 0
-    for app_name, f_name in zip(application_name[::5], form_name[::1]):
+    for app_name, f_name in zip(application_name, form_name):
         counter += 1
         count = len(df[(df['app_name'] == app_name) & (df['form_name'] == f_name)])
         print("{}. {} - {} => count {}".format(counter, app_name, f_name, count))
