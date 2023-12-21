@@ -1,0 +1,339 @@
+application_name,application_display_name,form_name,display_name,Location,Date Modified
+ASPECTS,"Aspects, Objectives and Targets",ASPECTS_ASPECT_DOCUMENT,Aspect Document,,14 May 20
+ASPECTS,"Aspects, Objectives and Targets",ASPECTS_CHANGE_REQUEST,Change Request,,14 May 20
+ASPECTS,"Aspects, Objectives and Targets",ASPECTS_OBJECTIVE_DOCUMENT,Objective Document,,14 May 20
+ASPECTS,"Aspects, Objectives and Targets",ASPECTS_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+ASPECTS,"Aspects, Objectives and Targets",ASPECTS_REVIEW_RECORD,Review Record,,14 May 20
+ASPECTSARC,"Aspects, Objectives and Targets Archive",ASPECTS_ASPECT_DOCUMENT,Aspect Document,,14 May 20
+ASPECTSARC,"Aspects, Objectives and Targets Archive",ASPECTS_CHANGE_REQUEST,Change Request,,14 May 20
+ASPECTSARC,"Aspects, Objectives and Targets Archive",ASPECTS_OBJECTIVE_DOCUMENT,Objective Document,,14 May 20
+ASPECTSARC,"Aspects, Objectives and Targets Archive",ASPECTS_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+ASPECTSARC,"Aspects, Objectives and Targets Archive",ASPECTS_REVIEW_RECORD,Review Record,,14 May 20
+CALIBRATION,"Assets, Calibration and Maintenance",CALIBRATION_APPLICATION_PROFILE,Application Profile,,14 May 20
+CALIBRATION,"Assets, Calibration and Maintenance",CALIBRATION_EQUIPMENT_PROFILE,Asset Profile,,14 May 20
+CALIBRATION,"Assets, Calibration and Maintenance",CALIBRATION_CALIBRATION_CERTIFICATE,Calibration Certificate,,14 May 20
+CALIBRATION,"Assets, Calibration and Maintenance",CALIBRATION_CALIBRATION_RECORD,Calibration Record,,14 May 20
+CALIBRATION,"Assets, Calibration and Maintenance",CALIBRATION_MAINTENANCE_RECORD,Maintenance Record,,14 May 20
+CALIBRATION,"Assets, Calibration and Maintenance",CALIBRATION_PART_PROFILE,Part Profile,,14 May 20
+CALIBRATION,"Assets, Calibration and Maintenance",CALIBRATION_R_AND_R_STUDY,R&R Study,,14 May 20
+CHANGE,Change Management,CHANGE_ACTION_ITEM,Action Item,,10 Jul 23
+CHANGE,Change Management,CHANGE_DOCUMENT,Change Management,,10 Jul 23
+CHANGE,Change Management,CHANGE_FEASIBILITY_ANALYSIS,Feasibility Analysis,,10 Jul 23
+COMPLAINTS,Complaints Handling,COMPLAINTS_ACTION_ITEM,Action Item,,14 May 20
+COMPLAINTS,Complaints Handling,COMPLAINTS_ADI_DECISION_TREE,ADI Decision Tree,,14 May 20
+COMPLAINTS,Complaints Handling,ETQ_COMPLAINTS_APPLICATION_PROFILE,Application Profile,,14 May 20
+COMPLAINTS,Complaints Handling,COMPLAINTS_COMPLAINT_DOCUMENT,Complaint,,14 May 20
+COMPLAINTS,Complaints Handling,COMPLAINTS_INVESTIGATION_SUMMARY,Complaint Investigation,,14 May 20
+COMPLAINTS,Complaints Handling,COMPLAINTS_DILIGENCE_LOG,Diligence Log,,14 May 20
+COMPLAINTS,Complaints Handling,ETQ_COMPLAINTS_EXTENSION_REASSIGNMENT_REQUEST,Extension/Reassignment Request,,14 May 20
+COMPLAINTS,Complaints Handling,COMPLAINTS_MDR_DECISION_TREE,MDR Decision Tree,,14 May 20
+COMPLAINTS,Complaints Handling,COMPLAINTS_MEDWATCH_EMDR,MedWatch,,14 May 20
+COMPLAINTS,Complaints Handling,COMPLAINTS_MFR_MAPPING,MFR Mapping,,14 May 20
+COMPLAINTS,Complaints Handling,COMPLAINTS_PRODUCT_CODES,Product Codes,,14 May 20
+CORRACT,Corrective Action (CAPA/SCAR),CORRACT_ACTION_ITEM,Action Item,,12 Sep 23
+CORRACT,Corrective Action (CAPA/SCAR),CORRACT_DOCUMENT,Corrective Action,,12 Sep 23
+CORRACT,Corrective Action (CAPA/SCAR),CORRACT_CAPA_DETERMINATION,Corrective Action Determination,,12 Sep 23
+CORRACT,Corrective Action (CAPA/SCAR),CORRACT_EXTENSION_REASSIGNMENT_REQUEST,Extension/Reassignment Request,,12 Sep 23
+CORRACT,Corrective Action (CAPA/SCAR),SCAR_DOCUMENT,SCAR,,12 Sep 23
+CUSTOMERS,Customer Feedback,ETQ_CUSTOMERS_CUSTOMER_CONTACTS,Customer Contacts,,14 May 20
+CUSTOMERS,Customer Feedback,CUSTOMER_COMPLAINTS,Customer Feedback,,14 May 20
+CUSTOMERS,Customer Feedback,CUSTOMER_NOTIFICATION,Customer Notification,,14 May 20
+CUSTOMERS,Customer Feedback,CUSTOMER_PROFILE_DOCUMENT,Customer Profile,,14 May 20
+DELEGATION,Delegation,DELEGATION_DOCUMENT,Delegation,,10 Jul 23
+DEVIATION,Planned Deviation,DEVIATION_ACTION_ITEM,Action Item,,6 Nov 23
+DEVIATION,Planned Deviation,DEVIATION_DOCUMENT,Deviation,,6 Nov 23
+DOCARC,Document Control Archive,DOCWORK_CHANGE_REQUEST_FOR_MULTIPLE_DOCUMENTS,Change Request,,14 Dec 23
+DOCARC,Document Control Archive,DOCWORK_CHANGE_REQUEST,Change Request for Single,,14 Dec 23
+DOCARC,Document Control Archive,DOCWORK_CHANGE_REQUEST_LOG,Change Request Log,,14 Dec 23
+DOCARC,Document Control Archive,DOCWORK_DOCUMENT,Document Control,,14 Dec 23
+DOCARC,Document Control Archive,DOCWORK_OBSOLETE_REQUEST,Obsolete Request,,14 Dec 23
+DOCARC,Document Control Archive,DOCWORK_REVIEW_RECORD,Periodic Review,,14 Dec 23
+DOCWORK,Document Control,DOCWORK_CHANGE_REQUEST_FOR_MULTIPLE_DOCUMENTS,Change Request,,14 Dec 23
+DOCWORK,Document Control,DOCWORK_CHANGE_REQUEST,Change Request for Single,,14 Dec 23
+DOCWORK,Document Control,DOCWORK_CHANGE_REQUEST_LOG,Change Request Log,,14 Dec 23
+DOCWORK,Document Control,DOCWORK_DOCUMENT,Document Control,,14 Dec 23
+DOCWORK,Document Control,DC_DOC_TYPES_PROFILE,Document Type Profile,,14 Dec 23
+DOCWORK,Document Control,DOCWORK_EXTENSION_REASSIGNMENT_REQUEST,Extension/Reassignment Request,,14 Dec 23
+DOCWORK,Document Control,DOCWORK_OBSOLETE_REQUEST,Obsolete Request,,14 Dec 23
+DOCWORK,Document Control,DOCWORK_REVIEW_RECORD,Periodic Review,,14 Dec 23
+EMERGENCY,Emergency Preparedness Plans,EMERGENCY_CHANGE_REQUEST,Change Request,,14 May 20
+EMERGENCY,Emergency Preparedness Plans,EMERGENCY_DRILL,Emergency Drill,,14 May 20
+EMERGENCY,Emergency Preparedness Plans,EMERGENCY_PLAN,Emergency Plan,,14 May 20
+EMERGENCY,Emergency Preparedness Plans,EMERGENCY_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+EMERGENCY,Emergency Preparedness Plans,EMERGENCY_REVIEW_RECORD,Review Record,,14 May 20
+EMERGENCYARC,Emergency Preparedness Plans Archive,EMERGENCY_CHANGE_REQUEST,Change Request,,14 May 20
+EMERGENCYARC,Emergency Preparedness Plans Archive,EMERGENCY_DRILL,Emergency Drill,,14 May 20
+EMERGENCYARC,Emergency Preparedness Plans Archive,EMERGENCY_PLAN,Emergency Plan,,14 May 20
+EMERGENCYARC,Emergency Preparedness Plans Archive,EMERGENCY_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+EMERGENCYARC,Emergency Preparedness Plans Archive,EMERGENCY_REVIEW_RECORD,Review Record,,14 May 20
+ERM,Enterprise Risk Management,ERM_PLAN_DOCUMENT,Risk Plan,,14 May 20
+ERM,Enterprise Risk Management,ERM_RISK_SURVEY,Risk Survey,,14 May 20
+ERM,Enterprise Risk Management,ERM_SURVEY_TEMPLATE,Survey Template,,14 May 20
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_AUDIT_DOCUMENT,Audit,,14 May 20
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_AUDIT_PLAN,Audit Plan,,14 May 20
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_AUDIT_PROFILE,Audit Type,,14 May 20
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_CHECKLIST_PROFILE,Checklist,,14 May 20
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_CHECKLIST_DOCUMENT,Checklist Document,,14 May 20
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_CHECKLIST_TEMPLATE,Checklist Template,,14 May 20
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_RECOMMENDATION,Recommendation,,14 May 20
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_SUMMARY,Summary Report,,14 May 20
+ETQ_BBS,Behavior Based Safety,ETQ_BBS_ACTION_ITEM,Action Item,,14 May 20
+ETQ_BBS,Behavior Based Safety,ETQ_BBS_OBSERVATION,Observation Event,,14 May 20
+ETQ_BBS,Behavior Based Safety,ETQ_BBS_OBSERVATION_RECORD,Observation Record,,14 May 20
+ETQ_BBS,Behavior Based Safety,ETQ_BBS_OBSERVATION_TEMPLATE,Observation Template,,14 May 20
+ETQ_CALC_ENGINE,Equation Engine,ETQ_CALC_ENGINE_CALCULATION_PROFILE,Equation Profile,,14 May 20
+ETQ_CALC_ENGINE,Equation Engine,ETQ_CALC_ENGINE_PARAMETER_PROFILE,Parameter Profile,,14 May 20
+ETQ_DESIGN_HISTORY_FILE_DHF,Design History File,ETQ_DHF_DELIVERABLE,Deliverable,,14 May 20
+ETQ_DESIGN_HISTORY_FILE_DHF,Design History File,ETQ_DHF_DELIVERABLE_PROFILE,Deliverable Profile,,14 May 20
+ETQ_DESIGN_HISTORY_FILE_DHF,Design History File,ETQ_DHF_DHF,DHF,,14 May 20
+ETQ_DESIGN_HISTORY_FILE_DHF,Design History File,ETQ_DHF_DHF_PROFILE,DHF Profile,,14 May 20
+ETQ_DESIGN_HISTORY_FILE_DHF,Design History File,ETQ_DESIGN_HISTORY_FILE_DHF_EXTENSION_REASSIGNMENT_REQUEST,Extension/Reassignment Request,,14 May 20
+ETQ_INDUSTRIAL_HYGIENE,Industrial Hygiene,ETQ_INDUSTRIAL_HYGIENE_CONVERSION_RATES,Conversion Rates,,14 May 20
+ETQ_INDUSTRIAL_HYGIENE,Industrial Hygiene,ETQ_INDUSTRIAL_HYGIENE_QUANTITATIVE,Exposure Monitoring Form (Quantitative Assessment),,14 May 20
+ETQ_INDUSTRIAL_HYGIENE,Industrial Hygiene,ETQ_INDUSTRIAL_HYGIENE_QUALITATIVE,Similar Exposure Group and Qualitative Assessment – SEG,,14 May 20
+ETQ_PERMIT_CONTROL,Permit Control,ETQ_PERMIT_CONTROL_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+ETQ_PERMIT_CONTROL,Permit Control,ETQ_PERMIT_CONTROL,Permit Control,,14 May 20
+ETQ_PERMIT_CONTROL,Permit Control,ETQ_PERMIT_RENEWAL,Permit Renewal,,14 May 20
+ETQ_PERMIT_CONTROL_ARCHIVE,Permit Control Archive,ETQ_PERMIT_CONTROL_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+ETQ_PERMIT_CONTROL_ARCHIVE,Permit Control Archive,ETQ_PERMIT_CONTROL,Permit Control,,14 May 20
+ETQ_PERMIT_CONTROL_ARCHIVE,Permit Control Archive,ETQ_PERMIT_RENEWAL,Permit Renewal,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_APPLICATION_PROFILE,Application Profile,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_DATA_COLLECTION,Data Collection,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_PROJECT_PROFILE,Data Collection Program,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_CLASSIFICATION_PROFILE,GRI Question Classification,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_NORMALIZATION_FACTOR_PROFILE,Normalization Factor Profile,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_OBJECTIVE_PROFILE,Objective Profile,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_QUESTION_PROFILE,Question Profile,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_REPORT,Sustainability Report,,14 May 20
+ETQ_SUSTAINABILITY,Sustainability Reporting,ETQ_SUSTAINABILITY_UNIT_PROFILE,Unit Profile,,14 May 20
+ETQ_TASK_MANAGEMENT,Quality Requests,QR_ACTION_ITEM,QR Action Item,,8 Dec 23
+ETQ_TASK_MANAGEMENT,Quality Requests,ETQ_TASK_MANAGEMENT_TASK_FORM,Quality Request Form,,8 Dec 23
+ETQ_TRAINING,Training Management,ETQ_TRAINING_MODULE_PROFILE,Application Profile,,9 Jan 23
+ETQ_TRAINING,Training Management,ETQ_TRAINING_ASSIGNMENT_RECORD,Assignment,,9 Jan 23
+ETQ_TRAINING,Training Management,ETQ_TRAINING_COURSE_PROFILE,Course Profile,,9 Jan 23
+ETQ_TRAINING,Training Management,ETQ_TRAINING_COURSE_SCHEDULE,Course Schedule,,9 Jan 23
+ETQ_TRAINING,Training Management,ETQ_TRAINING_EMPLOYEE_PROFILE,Employee Profile,,9 Jan 23
+ETQ_TRAINING,Training Management,ETQ_TRAINING_TEST,Test,,9 Jan 23
+ETQ_WATER_MANAGEMENT,Waste Water Management,ETQ_WATER_MANAGEMENT_ACTION_ITEM,Action Item,,14 May 20
+ETQ_WATER_MANAGEMENT,Waste Water Management,ETQ_WATER_MANAGEMENT_CONVERSION_RATES,Conversion Rates,,14 May 20
+ETQ_WATER_MANAGEMENT,Waste Water Management,ETQ_WATER_MANAGEMENT_DATA_ANALYSIS,Data Analysis,,14 May 20
+ETQ_WATER_MANAGEMENT,Waste Water Management,ETQ_WATER_MANAGEMENT_DMR,Discharge Monitoring Report (DMR),,14 May 20
+ETQ_WATER_MANAGEMENT,Waste Water Management,ETQ_WATER_MANAGEMENT_LIMS_FIELDS_MAPPING,Setup,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_APPLICATION_PROFILE,Application Profile,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_CHANGE_REQUEST,Change Request,,14 May 20
+EVALIDATOR,Release Management for ETQ,ETQ_EVALIDATOR_CONFIGURATION_CHANGE_REQUEST,Configuration Change Request,,14 May 20
+EVALIDATOR,Release Management for ETQ,ETQ_EVALIDATOR_CONFIGURATION_EXPORT_FILE,Configuration Export File,,14 May 20
+EVALIDATOR,Release Management for ETQ,ETQ_EVALIDATOR_CONFIGURATION_REPORT,Configuration Report,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_REQUIREMENTS_DOCUMENT,Requirement,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_SHARED_SCRIPT,Shared Script,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_SHARED_SCRIPT_CHANGE_REQUEST,Shared Script Change Request,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_SHARED_SCRIPT_OBSOLETE,Shared Script Obsolete Request,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_TEST_PLAN,Test Plan,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_TEST_RECORD,Test Record,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_TEST_SCRIPT,Test Script,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_TEST_SCRIPT_CHANGE_REQUEST,Test Script Change Request,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_TEST_SCRIPT_OBSOLETE_REQUEST,Test Script Obsolete Request,,14 May 20
+EVALIDATOR,Release Management for ETQ,EVALIDATOR_VALIDATION_PROJECT_DOCUMENT,Validation Project,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_CHANGE_REQUEST,Change Request,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_REQUIREMENTS_DOCUMENT,Requirement,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_SHARED_SCRIPT,Shared Script,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_SHARED_SCRIPT_CHANGE_REQUEST,Shared Script Change Request,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_SHARED_SCRIPT_OBSOLETE,Shared Script Obsolete Request,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_TEST_RECORD,Test Record,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_TEST_SCRIPT,Test Script,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_TEST_SCRIPT_CHANGE_REQUEST,Test Script Change Request,,14 May 20
+EVALIDATORARC,Release Management for ETQ Archive,EVALIDATOR_TEST_SCRIPT_OBSOLETE_REQUEST,Test Script Obsolete Request,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_ACTION_ITEM,Action Item,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_CHANGE_REQUEST,Change Request,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_CONTROL_PLAN,Control Plan,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_DESIGN_PROJECT,Design Project,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_FMEA_DOCUMENT,Failure Mode and Effects Analysis,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_HAZARD_PROFILE,Hazard Profile,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_LABELING,Labeling,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_REVIEW_RECORD,Review Record,,14 May 20
+FMEA,Failure Mode and Effects Analysis,FMEA_SYSTEM_RISK_ANALYSIS,System Risk Analysis,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_ACTION_ITEM,Action Item,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_CHANGE_REQUEST,Change Request,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_CONTROL_PLAN,Control Plan,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_DESIGN_PROJECT,Design Project,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_FMEA_DOCUMENT,Failure Mode and Effects Analysis,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_HAZARD_PROFILE,Hazard Profile,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_LABELING,Labeling,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_REVIEW_RECORD,Review Record,,14 May 20
+FMEAARC,Failure Mode and Effects Analysis Archive,FMEA_SYSTEM_RISK_ANALYSIS,System Risk Analysis,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_DECISION_TREE,CCP Decision Tree,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_CHANGE_REQUEST,Change Request,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_PLAN,HACCP Plan,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_PLAN_SUMMARY,HACCP Plan Summary,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_HAZARD_ANALYSIS,Hazard Analysis,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_MONITORING_RECORDS,Monitoring Record,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_PREREQUISITE_PROGRAMS,Prerequisite Program,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,HACCP_REVIEW_RECORD,Review Record,,14 May 20
+HACCP,Hazard Analysis and Critical Control Points,ETQ_HACCP_VERIFICATION_RECORD,Verification Record,,14 May 20
+HACCPARC,Hazard Analysis and Critical Control Points Archive,HACCP_DECISION_TREE,CCP Decision Tree,,14 May 20
+HACCPARC,Hazard Analysis and Critical Control Points Archive,HACCP_CHANGE_REQUEST,Change Request,,14 May 20
+HACCPARC,Hazard Analysis and Critical Control Points Archive,HACCP_PLAN,HACCP Plan,,14 May 20
+HACCPARC,Hazard Analysis and Critical Control Points Archive,HACCP_PLAN_SUMMARY,HACCP Plan Summary,,14 May 20
+HACCPARC,Hazard Analysis and Critical Control Points Archive,HACCP_HAZARD_ANALYSIS,Hazard Analysis,,14 May 20
+HACCPARC,Hazard Analysis and Critical Control Points Archive,HACCP_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+HACCPARC,Hazard Analysis and Critical Control Points Archive,HACCP_PREREQUISITE_PROGRAMS,Prerequisite Program,,14 May 20
+HACCPARC,Hazard Analysis and Critical Control Points Archive,HACCP_REVIEW_RECORD,Review Record,,14 May 20
+INCIDENTS,Accidents and Safety Reporting,INCIDENTS_ACTION_ITEM,Action Item,,14 May 20
+INCIDENTS,Accidents and Safety Reporting,ETQ_INCIDENT_EMPLOYEE_HOURS_WORKED,Employee Hours Worked,,14 May 20
+INCIDENTS,Accidents and Safety Reporting,INCIDENT_DOCUMENT,Incident,,14 May 20
+INCIDENTS,Accidents and Safety Reporting,INCIDENT_INJURY_ILLNESS,Injury Illness,,14 May 20
+INCIDENTS,Accidents and Safety Reporting,INCIDENTS_OSHA_300,OSHA 300,,14 May 20
+INCIDENTS,Accidents and Safety Reporting,INCIDENTS_OSHA_300A,OSHA 300A,,14 May 20
+INCIDENTS,Accidents and Safety Reporting,INCIDENTS_OSHA_301,OSHA 301,,14 May 20
+JSA,Job Safety Analysis,JSA_ACTION_ITEM,Action Item,,14 May 20
+JSA,Job Safety Analysis,JSA_CHANGE_REQUEST,Change Request,,14 May 20
+JSA,Job Safety Analysis,JSA_DOCUMENT,Job Safety Analysis,,14 May 20
+JSA,Job Safety Analysis,JSA_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+JSA,Job Safety Analysis,JSA_REVIEW_RECORD,Review Record,,14 May 20
+JSAARC,Job Safety Analysis Archive,JSA_ACTION_ITEM,Action Item,,14 May 20
+JSAARC,Job Safety Analysis Archive,JSA_CHANGE_REQUEST,Change Request,,14 May 20
+JSAARC,Job Safety Analysis Archive,JSA_DOCUMENT,Job Safety Analysis,,14 May 20
+JSAARC,Job Safety Analysis Archive,JSA_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+JSAARC,Job Safety Analysis Archive,JSA_REVIEW_RECORD,Review Record,,14 May 20
+MATRET,Return Material Authorization,MATRET_ACTION_ITEM,Action Item,,14 May 20
+MATRET,Return Material Authorization,MATRET_FEASIBILITY_ANALYSIS,Feasibility Analysis,,14 May 20
+MATRET,Return Material Authorization,MATRET_DOCUMENT,Material Returns,,14 May 20
+MEETINGS,Meetings,MEETINGS_ACTION_ITEM,Action Item,,14 May 20
+MEETINGS,Meetings,MEETINGS_MEETING,Meeting,,14 May 20
+MEETINGS,Meetings,MEETINGS_MEETING_INVITATION,Meeting Invitation,,14 May 20
+MEETINGS,Meetings,MEETINGS_MEETING_PROFILE,Meeting Profile,,14 May 20
+MONITORING,Monitoring and Inspection,MONITORING_CHANGE_REQUEST,Change Request,,14 May 20
+MONITORING,Monitoring and Inspection,MONITORING_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+MONITORING,Monitoring and Inspection,MONITORING_REVIEW_RECORD,Review Record,,14 May 20
+MONITORING,Monitoring and Inspection,MONITORING_TEST_PLAN,Test Plan,,14 May 20
+MONITORING,Monitoring and Inspection,MONITORING_TEST_RECORD,Test Record,,14 May 20
+MONITORINGARC,Monitoring and Inspection Archive,MONITORING_CHANGE_REQUEST,Change Request,,14 May 20
+MONITORINGARC,Monitoring and Inspection Archive,MONITORING_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+MONITORINGARC,Monitoring and Inspection Archive,MONITORING_REVIEW_RECORD,Review Record,,14 May 20
+MONITORINGARC,Monitoring and Inspection Archive,MONITORING_TEST_PLAN,Test Plan,,14 May 20
+MONITORINGARC,Monitoring and Inspection Archive,MONITORING_TEST_RECORD,Test Record,,14 May 20
+MSDS,Safety Data Sheet,MSDS_CHANGE_REQUEST,Change Request,,14 May 20
+MSDS,Safety Data Sheet,MSDS_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+MSDS,Safety Data Sheet,MSDS_REVIEW_RECORD,Review Record,,14 May 20
+MSDS,Safety Data Sheet,MSDS_MSDS_DOCUMENT,SDS Document,,14 May 20
+MSDSARC,Safety Data Sheet Archive,MSDS_CHANGE_REQUEST,Change Request,,14 May 20
+MSDSARC,Safety Data Sheet Archive,MSDS_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+MSDSARC,Safety Data Sheet Archive,MSDS_REVIEW_RECORD,Review Record,,14 May 20
+MSDSARC,Safety Data Sheet Archive,MSDS_MSDS_DOCUMENT,SDS Document,,14 May 20
+NCMR,Nonconformance Reporting,NCMR_ACTION_ITEM,Action Item,,6 Nov 23
+NCMR,Nonconformance Reporting,DUE_DATE_EXTENSION_FORM,Due Date Extension form (Disregard),,6 Nov 23
+NCMR,Nonconformance Reporting,NCMR_EXTENSION_REASSIGNMENT_REQUEST,Extension/Reassignment Request,,6 Nov 23
+NCMR,Nonconformance Reporting,NCMR_DOCUMENT,Nonconformance Report,,6 Nov 23
+PDM,Product Specification Management,PDM_CHANGE_REQUEST,Change Request,,14 May 20
+PDM,Product Specification Management,PDM_ITEM,Item,,14 May 20
+PDM,Product Specification Management,PDM_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+PDM,Product Specification Management,PDM_REVIEW_RECORD,Review Record,,14 May 20
+PDMARC,Product Specification Management Archive,PDM_CHANGE_REQUEST,Change Request,,14 May 20
+PDMARC,Product Specification Management Archive,PDM_ITEM,Item,,14 May 20
+PDMARC,Product Specification Management Archive,PDM_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+PDMARC,Product Specification Management Archive,PDM_REVIEW_RECORD,Review Record,,14 May 20
+PPAP,Production Part Approval Process,PPAP_APPLICATION_PROFILE,Application Profile,,14 May 20
+PPAP,Production Part Approval Process,PPAP_SUBMISSION,PPAP Submission,,14 May 20
+PROJECT,Project Control,PROJECT_OUTLINE_DOCUMENT,Outline Document,,14 May 20
+PROJECT,Project Control,PROJECT_OUTLINE_TEMPLATE,Outline Template,,14 May 20
+PROJECT,Project Control,PROJECT_PROJECT_DOCUMENT,Project Document,,14 May 20
+PROJECT,Project Control,PROJECT_PROJECT_TEMPLATE,Project Template,,14 May 20
+PROJECT,Project Control,PROJECT_RELATED_ACTIVITY,Related Activity,,14 May 20
+PROJECT,Project Control,PROJECT_TASK_DOCUMENT,Task Document,,14 May 20
+QUALRECS,Quality Records Disposition,QUALRECS_CHANGE_REQUEST,Change Request,,14 May 20
+QUALRECS,Quality Records Disposition,QUALRECS_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+QUALRECS,Quality Records Disposition,QUALRECS_QUALREC_DOCUMENT,Quality Record,,14 May 20
+QUALRECS,Quality Records Disposition,QUALRECS_RECORD_DISPOSITION,Record Disposition,,14 May 20
+QUALRECS,Quality Records Disposition,QUALRECS_REVIEW_RECORD,Review Record,,14 May 20
+QUALRECSARC,Quality Records Disposition Archive,QUALRECS_CHANGE_REQUEST,Change Request,,14 May 20
+QUALRECSARC,Quality Records Disposition Archive,QUALRECS_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+QUALRECSARC,Quality Records Disposition Archive,QUALRECS_QUALREC_DOCUMENT,Quality Record,,14 May 20
+QUALRECSARC,Quality Records Disposition Archive,QUALRECS_RECORD_DISPOSITION,Record Disposition,,14 May 20
+QUALRECSARC,Quality Records Disposition Archive,QUALRECS_REVIEW_RECORD,Review Record,,14 May 20
+RATING,Supplier Rating,SUPPLIER_RATING_REPORT,Manual Rating Report,,19 May 20
+RATING,Supplier Rating,SUPPLIER_RATING_PROFILE,Rating Profile,,19 May 20
+RATING,Supplier Rating,SCHEDULED_RATING_REPORT,Scheduled Rating Report,,19 May 20
+RATING,Supplier Rating,SUPPLIER_SCORE_CARD,Scorecard,,19 May 20
+RATING,Supplier Rating,SUPPLIER_SCORING_PROFILE,Scoring Profile,,19 May 20
+RATING,Supplier Rating,SUPPLIER_SCORING_RESULT,Scoring Result,,19 May 20
+RATING,Supplier Rating,SUPPLIER_SCORING_SUB_CRITERIA,Scoring Sub Criteria,,19 May 20
+RATING,Supplier Rating,SUPPLIER_SUB_CRITERIA_RESULT,Sub Criteria Result,,19 May 20
+RECEIVING,Receiving and Inspection,CRITERIA_INSPECTION,Criteria Inspection,,10 Jul 23
+RECEIVING,Receiving and Inspection,SUPPLIER_INSPECTION_RECORD,Inspection Record,,10 Jul 23
+RECEIVING,Receiving and Inspection,SUPPLIER_RECEIVING_RECORD,Receiving Record,,10 Jul 23
+RECEIVING,Receiving and Inspection,SUPPLIER_SAMPLING_PLAN,Sampling Plan,,10 Jul 23
+RECEIVING,Receiving and Inspection,SUPPLIER_SKIP_LOT_PROFILE,Skip Lot Profile,,10 Jul 23
+REGULATORY,Compliance Obligations,REGULATORY_ACTION_ITEM,Action Item,,14 May 20
+REGULATORY,Compliance Obligations,ETQ_REGULATORY_APPLICABILITY_FORM,Applicability Form,,14 May 20
+REGULATORY,Compliance Obligations,REGULATORY_CHANGE_REQUEST,Change Request,,14 May 20
+REGULATORY,Compliance Obligations,ETQ_REGULATORY_COMPLIANCE_PLAN,Compliance Plan,,14 May 20
+REGULATORY,Compliance Obligations,REGULATORY_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+REGULATORY,Compliance Obligations,REGULATORY_REGULATION,Requirements,,14 May 20
+REGULATORY,Compliance Obligations,REGULATORY_REVIEW_RECORD,Review Record,,14 May 20
+REGULATORYARC,Compliance Obligations Archive,REGULATORY_ACTION_ITEM,Action Item,,14 May 20
+REGULATORYARC,Compliance Obligations Archive,REGULATORY_CHANGE_REQUEST,Change Request,,14 May 20
+REGULATORYARC,Compliance Obligations Archive,REGULATORY_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+REGULATORYARC,Compliance Obligations Archive,REGULATORY_REGULATION,Requirements,,14 May 20
+REGULATORYARC,Compliance Obligations Archive,REGULATORY_REVIEW_RECORD,Review Record,,14 May 20
+REPORTING,Centralized Reporting and Alerts,REPORTING_QUALITY_ALERT_REPORT,Alert Report,,10 Jul 23
+REPORTING,Centralized Reporting and Alerts,REPORTING_QUALITY_ALERT_TEMPLATE,Alert Template,,10 Jul 23
+REPORTING,Centralized Reporting and Alerts,REPORTING_CHART_DOCUMENT,Chart Document,,10 Jul 23
+REPORTING,Centralized Reporting and Alerts,REPORTING_CHART_TEMPLATE,Chart Template,,10 Jul 23
+RISK,Risk Register,RISK_ASSESSMENTS_ACTION_ITEM,Action Item,,14 May 20
+RISK,Risk Register,ETQ_RISK_BOWTIE_ANALYSIS,Bowtie Analysis,,14 May 20
+RISK,Risk Register,ETQ_RISK_CONSEQUENCE_PROFILE,Bowtie Consequence Profile,,14 May 20
+RISK,Risk Register,ETQ_RISK_THREAT_PROFILE,Bowtie Threat Profile,,14 May 20
+RISK,Risk Register,RISK_CHANGE_REQUEST,Change Request,,14 May 20
+RISK,Risk Register,RISK_CONTROL_DOCUMENT,Control,,14 May 20
+RISK,Risk Register,ETQ_RISK_ESCALATION_FACTOR,Escalation Factor,,14 May 20
+RISK,Risk Register,RISK_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+RISK,Risk Register,RISK_REVIEW_RECORD,Review Record,,14 May 20
+RISK,Risk Register,RISK_ASSESSMENTS_DOCUMENT,Risk Assessment,,14 May 20
+RISK,Risk Register,RISK_ASSESSMENT_TEMPLATE,Risk Assessment Template,,14 May 20
+RISK,Risk Register,RISK_RISK_ITEM_PROFILE,Risk Item,,14 May 20
+RISK,Risk Register,RISK_ASSESSMENT_TEMPLATE_RESULTS,Risk Results,,14 May 20
+RISK,Risk Register,RISK_ASSESSMENT_TEMPLATE_VALUES,Risk Values,,14 May 20
+RISKARC,Risk Register Archive,RISK_CHANGE_REQUEST,Change Request,,14 May 20
+RISKARC,Risk Register Archive,RISK_CONTROL_DOCUMENT,Control,,14 May 20
+RISKARC,Risk Register Archive,ETQ_RISK_ESCALATION_FACTOR,Escalation Factor,,14 May 20
+RISKARC,Risk Register Archive,RISK_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+RISKARC,Risk Register Archive,RISK_REVIEW_RECORD,Review Record,,14 May 20
+SUPPLIER,"Suppliers, Materials and Chemicals",SUPPLIER_CHANGE_REQUEST,Change Request,,7 Nov 23
+SUPPLIER,"Suppliers, Materials and Chemicals",ETQ_SUPPLIER_CHEMICAL_APPROVAL,Chemical Approval,,7 Nov 23
+SUPPLIER,"Suppliers, Materials and Chemicals",SUPPLIER_MATERIAL_PROFILE,Material/Chemical Profile,,7 Nov 23
+SUPPLIER,"Suppliers, Materials and Chemicals",SUPPLIER_SUPPLIER_PROFILE,Supplier Profile,,7 Nov 23
+SUPPLIERARC,"Suppliers, Materials and Chemicals Archive",SUPPLIER_CHANGE_REQUEST,Change Request,,7 Nov 23
+SUPPLIERARC,"Suppliers, Materials and Chemicals Archive",SUPPLIER_MATERIAL_PROFILE,Material/Chemical Profile,,7 Nov 23
+TRAINING,Employee Training,TRAINING_ADMINISTRATION_PROFILE,Application Profile,,14 May 20
+TRAINING,Employee Training,TRAINING_COURSE_EVALUATION,Course Evaluation,,14 May 20
+TRAINING,Employee Training,TRAINING_COURSE_INVITATION,Course Invitation,,14 May 20
+TRAINING,Employee Training,TRAINING_COURSE_PROFILE,Course Profile,,14 May 20
+TRAINING,Employee Training,TRAINING_COURSE_SCHEDULE,Course Schedule,,14 May 20
+TRAINING,Employee Training,TRAINING_PERSON_PROFILE,Person Profile,,14 May 20
+TRAINING,Employee Training,TRAINING_PROGRESS_COMMENTARY,Progress Commentary,,14 May 20
+TRAINING,Employee Training,TRAINING_REQUIREMENT,Requirement,,14 May 20
+TRAINING,Employee Training,TRAINING_REQUIREMENT_GROUP,Requirement Group,,14 May 20
+TRAINING,Employee Training,TEST_DOCUMENT,Test,,14 May 20
+TRAINING,Employee Training,TRAINING_TEST_TEMPLATE,Test Template,,14 May 20
+TRAINING,Employee Training,TRAINING_CERTIFICATE,Training Certificate,,14 May 20
+TRAINING,Employee Training,TRAINING_TRAINING_REQUEST,Training Request,,14 May 20
+VALIDATION,Test Application for Validation,VALIDATION_CHANGE_REQUEST,Change Request,,14 May 20
+VALIDATION,Test Application for Validation,NON_WF_VALIDATION_DOC,Non-workflow Validation Document,,14 May 20
+VALIDATION,Test Application for Validation,VALIDATION_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+VALIDATION,Test Application for Validation,VALIDATION_REVIEW_RECORD,Review Record,,14 May 20
+VALIDATION,Test Application for Validation,VALIDATION_ACTIVITY_1,Validation Activity 1,,14 May 20
+VALIDATION,Test Application for Validation,VALIDATION_ACTIVITY_2,Validation Activity 2,,14 May 20
+VALIDATION,Test Application for Validation,VALIDATION_ACTIVITY_3,Validation Activity 3,,14 May 20
+VALIDATION,Test Application for Validation,VALIDATION_DOCUMENT,Validation Document,,14 May 20
+VALIDATIONARC,Test Application for Validation Archive,VALIDATION_CHANGE_REQUEST,Change Request,,14 May 20
+VALIDATIONARC,Test Application for Validation Archive,VALIDATION_OBSOLETE_REQUEST,Obsolete Request,,14 May 20
+VALIDATIONARC,Test Application for Validation Archive,VALIDATION_REVIEW_RECORD,Review Record,,14 May 20
+VALIDATIONARC,Test Application for Validation Archive,VALIDATION_ACTIVITY_1,Validation Activity 1,,14 May 20
+VALIDATIONARC,Test Application for Validation Archive,VALIDATION_ACTIVITY_2,Validation Activity 2,,14 May 20
+VALIDATIONARC,Test Application for Validation Archive,VALIDATION_ACTIVITY_3,Validation Activity 3,,14 May 20
+VALIDATIONARC,Test Application for Validation Archive,VALIDATION_DOCUMENT,Validation Document,,14 May 20

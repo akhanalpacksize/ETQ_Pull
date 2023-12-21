@@ -1,0 +1,47 @@
+application_name,application_display_name,form_name,display_name
+NCMR,Nonconformance Reporting,NCMR_ACTION_ITEM,Action Item
+NCMR,Nonconformance Reporting,DUE_DATE_EXTENSION_FORM,Due Date Extension form (Disregard)
+NCMR,Nonconformance Reporting,NCMR_EXTENSION_REASSIGNMENT_REQUEST,Extension/Reassignment Request
+NCMR,Nonconformance Reporting,NCMR_DOCUMENT,Nonconformance Report
+SUPPLIER,"Suppliers, Materials and Chemicals",SUPPLIER_CHANGE_REQUEST,Change Request
+SUPPLIER,"Suppliers, Materials and Chemicals",ETQ_SUPPLIER_CHEMICAL_APPROVAL,Chemical Approval
+SUPPLIER,"Suppliers, Materials and Chemicals",SUPPLIER_MATERIAL_PROFILE,Material/Chemical Profile
+SUPPLIER,"Suppliers, Materials and Chemicals",SUPPLIER_SUPPLIER_PROFILE,Supplier Profile
+SUPPLIERARC,"Suppliers, Materials and Chemicals Archive",SUPPLIER_CHANGE_REQUEST,Change Request
+SUPPLIERARC,"Suppliers, Materials and Chemicals Archive",SUPPLIER_MATERIAL_PROFILE,Material/Chemical Profile
+ETQ_TASK_MANAGEMENT,Quality Requests,QR_ACTION_ITEM,QR Action Item
+ETQ_TASK_MANAGEMENT,Quality Requests,ETQ_TASK_MANAGEMENT_TASK_FORM,Quality Request Form
+CORRACT,Corrective Action (CAPA/SCAR),CORRACT_ACTION_ITEM,Action Item
+CORRACT,Corrective Action (CAPA/SCAR),CORRACT_DOCUMENT,Corrective Action
+CORRACT,Corrective Action (CAPA/SCAR),CORRACT_CAPA_DETERMINATION,Corrective Action Determination
+CORRACT,Corrective Action (CAPA/SCAR),CORRACT_EXTENSION_REASSIGNMENT_REQUEST,Extension/Reassignment Request
+CORRACT,Corrective Action (CAPA/SCAR),SCAR_DOCUMENT,SCAR
+DOCARC,Document Control Archive,DOCWORK_CHANGE_REQUEST_FOR_MULTIPLE_DOCUMENTS,Change Request
+DOCARC,Document Control Archive,DOCWORK_CHANGE_REQUEST,Change Request for Single
+DOCARC,Document Control Archive,DOCWORK_CHANGE_REQUEST_LOG,Change Request Log
+DOCARC,Document Control Archive,DOCWORK_DOCUMENT,Document Control
+DOCARC,Document Control Archive,DOCWORK_OBSOLETE_REQUEST,Obsolete Request
+DOCARC,Document Control Archive,DOCWORK_REVIEW_RECORD,Periodic Review
+DOCWORK,Document Control,DOCWORK_CHANGE_REQUEST_FOR_MULTIPLE_DOCUMENTS,Change Request
+DOCWORK,Document Control,DOCWORK_CHANGE_REQUEST,Change Request for Single
+DOCWORK,Document Control,DOCWORK_CHANGE_REQUEST_LOG,Change Request Log
+DOCWORK,Document Control,DOCWORK_DOCUMENT,Document Control
+DOCWORK,Document Control,DC_DOC_TYPES_PROFILE,Document Type Profile
+DOCWORK,Document Control,DOCWORK_EXTENSION_REASSIGNMENT_REQUEST,Extension/Reassignment Request
+DOCWORK,Document Control,DOCWORK_OBSOLETE_REQUEST,Obsolete Request
+DOCWORK,Document Control,DOCWORK_REVIEW_RECORD,Periodic Review
+DEVIATION,Planned Deviation,DEVIATION_ACTION_ITEM,Action Item
+DEVIATION,Planned Deviation,DEVIATION_DOCUMENT,Deviation
+RECEIVING,Receiving and Inspection,CRITERIA_INSPECTION,Criteria Inspection
+RECEIVING,Receiving and Inspection,SUPPLIER_INSPECTION_RECORD,Inspection Record
+RECEIVING,Receiving and Inspection,SUPPLIER_RECEIVING_RECORD,Receiving Record
+RECEIVING,Receiving and Inspection,SUPPLIER_SAMPLING_PLAN,Sampling Plan
+RECEIVING,Receiving and Inspection,SUPPLIER_SKIP_LOT_PROFILE,Skip Lot Profile
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_AUDIT_DOCUMENT,Audit
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_AUDIT_PLAN,Audit Plan
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_AUDIT_PROFILE,Audit Type
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_CHECKLIST_PROFILE,Checklist
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_CHECKLIST_DOCUMENT,Checklist Document
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_CHECKLIST_TEMPLATE,Checklist Template
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_RECOMMENDATION,Recommendation
+ETQ_AUDITS,Audits Management,ETQ_AUDITS_SUMMARY,Summary Report
