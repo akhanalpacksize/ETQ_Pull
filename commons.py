@@ -6,8 +6,8 @@ form_name = 'ETQ_TASK_MANAGEMENT_TASK_FORM'
 
 output_dir = "ETQ_folder"
 
-etq = 'etq1.csv'
-etq_json = 'etq1.json'
+etq = 'etq.csv'
+etq_json = 'etq.json'
 
 
 # DATASET OWNER_ID

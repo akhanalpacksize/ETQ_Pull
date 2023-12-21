@@ -1,4 +1,6 @@
 import os
+from copy import deepcopy
+
 import pandas as pd
 import requests
 from concurrent.futures import ThreadPoolExecutor
@@ -39,7 +41,7 @@ def fetch_data(count, app_name, f_name, need_token=False):
         if hasattr(e, 'response') and e.response is not None:
             # Access the status code from the exception
             status_code = e.response.status_code
-            print(f'Error processing API {count} for {app_name}/{f_name}: {e} => {e.response.status_code}')
+            print(f'Error processing API {count} for {app_name}/{f_name}: {e} => {e}')
 
             # If status code is 401, retry the request
             if status_code == 401:
@@ -49,14 +51,14 @@ def fetch_data(count, app_name, f_name, need_token=False):
             return {'json_data': f"{e.response.text}", 'app_name': app_name, 'form_name': f_name, 'doc_id': count,
                     'success': False, "timestamp": timestamp}
         else:
-            print(f'Error processing API {count} for {app_name}/{f_name}: {e} => {e.response.status_code}')
+            print(f'Error processing API {count} for {app_name}/{f_name}: {e} ')
             return {'json_data': f"{e.response.text}", 'app_name': app_name, 'form_name': f_name, 'doc_id': count,
                     'success': False, "timestamp": timestamp}
 
     except Exception as e:
         # Handle other unexpected exceptions
-        print(f'Error processing API {count} for {app_name}/{f_name}: {e} => {e.response.status_code}')
-        return {'json_data': f"{e.response.text}", 'app_name': app_name, 'form_name': f_name, 'doc_id': count,
+        print(f'Error processing API {count} for {app_name}/{f_name}: {e} ')
+        return {'json_data': str(e), 'app_name': app_name, 'form_name': f_name, 'doc_id': count,
                 'success': False, "timestamp": timestamp}
 
 
@@ -69,20 +71,17 @@ def process_api(app_name, f_name):
     # Iterate over the count for the given app_name and f_name until we get 10 valid responses or reach max_count
 
     counter = 0
-    max_count = 10
-    print("here")
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    max_count = 3000
+    with ThreadPoolExecutor(max_workers=500) as executor:
         args_list = [(count, app_name, f_name) for count in range(1, max_count + 1)]
-        results = executor.map(lambda args: fetch_data(*args), args_list)
+        result_gen = executor.map(lambda args: fetch_data(*args), args_list)
 
-    print(results)
-
-    for result in results:
-        count, app_name, f_name, etq_doc = result.get('doc_id'), result.get('app_name'), result.get('form_name'), result
+    for result in result_gen:
+        res = deepcopy(result_gen.__next__())
+        count, app_name, f_name = result.get('doc_id'), result.get('app_name'), result.get('form_name')
         counter += 1
-
-        if etq_doc.get('success'):
-            all_data_for_api.append(etq_doc)
+        if res.get('success'):
+            all_data_for_api.append(res)
             valid_response_count += 1
             if valid_response_count == 10:
                 break
@@ -91,8 +90,8 @@ def process_api(app_name, f_name):
                     app_name + "->" + f_name not in [app.get('app_name') + "->" + app.get('form_name') for app in
                                                      all_data_for_api]):
                 print(f"Error processing API {count} for {app_name}/{f_name}")
-                all_data_for_api.append(etq_doc)
-
+                # print("appending: ", etq_doc)
+                all_data_for_api.append(res)
     if len(all_data_for_api) > 0:
         df = pd.DataFrame(all_data_for_api)
         if not os.path.exists(output_file):
@@ -116,22 +115,16 @@ all_data = []  # List to store all fetched data
 # max_count = 1  # Initial upper limit for count
 
 def process_app_data():
-    # with ThreadPoolExecutor(max_workers=100) as executor:
-    #     args_list = [(app_name, f_name) for app_name, f_name in zip(application_name, form_name)]
-    #     executor.map(lambda args: process_api(*args), args_list)
-    args_list = [[app_name, f_name] for app_name, f_name in zip(application_name, form_name)]
-    for item in args_list[::5]:
-        # print("Calling for : ", item)
-        process_api(item[0], item[1])
+    with ThreadPoolExecutor(max_workers=50) as executor:
+        args_list = [(app_name, f_name) for app_name, f_name in zip(application_name, form_name)]
+        executor.map(lambda args: process_api(*args), args_list)
 
 
-# process_app_data()
+process_app_data()
 
 def test_csv():
     df = pd.read_csv(output_file)
     counter = 0
-    # data= df[(df['app_name'] == "CORRACT") & (df['form_name'] == "CORRACT_EXTENSION_REASSIGNMENT_REQUEST")]
-    # print(data)
     for app_name, f_name in zip(application_name[::5], form_name[::5]):
         counter += 1
         count = len(df[(df['app_name'] == app_name) & (df['form_name'] == f_name)])
