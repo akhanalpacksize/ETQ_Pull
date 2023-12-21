@@ -67,9 +67,18 @@ def process_api(app_name, f_name):
     all_data_for_api = []  # List to store all fetched data for a specific app_name and f_name
     valid_response_count = 0
     # Iterate over the count for the given app_name and f_name until we get 10 valid responses or reach max_count
+
     counter = 0
-    for count in range(1, 3001):
-        etq_doc = fetch_data(count, app_name, f_name)
+    max_count = 10
+    print("here")
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        args_list = [(count, app_name, f_name) for count in range(1, max_count + 1)]
+        results = executor.map(lambda args: fetch_data(*args), args_list)
+
+    print(results)
+
+    for result in results:
+        count, app_name, f_name, etq_doc = result.get('doc_id'), result.get('app_name'), result.get('form_name'), result
         counter += 1
 
         if etq_doc.get('success'):
@@ -78,11 +87,12 @@ def process_api(app_name, f_name):
             if valid_response_count == 10:
                 break
         else:
-            if counter == 3000 and (
+            if counter == max_count and (
                     app_name + "->" + f_name not in [app.get('app_name') + "->" + app.get('form_name') for app in
                                                      all_data_for_api]):
                 print(f"Error processing API {count} for {app_name}/{f_name}")
                 all_data_for_api.append(etq_doc)
+
     if len(all_data_for_api) > 0:
         df = pd.DataFrame(all_data_for_api)
         if not os.path.exists(output_file):
@@ -106,20 +116,23 @@ all_data = []  # List to store all fetched data
 # max_count = 1  # Initial upper limit for count
 
 def process_app_data():
-    with ThreadPoolExecutor(max_workers=338) as executor:
-        args_list = [(app_name, f_name) for app_name, f_name in zip(application_name, form_name)]
-        executor.map(lambda args: process_api(*args), args_list)
+    # with ThreadPoolExecutor(max_workers=100) as executor:
+    #     args_list = [(app_name, f_name) for app_name, f_name in zip(application_name, form_name)]
+    #     executor.map(lambda args: process_api(*args), args_list)
+    args_list = [[app_name, f_name] for app_name, f_name in zip(application_name, form_name)]
+    for item in args_list[::5]:
+        # print("Calling for : ", item)
+        process_api(item[0], item[1])
 
 
 # process_app_data()
-
 
 def test_csv():
     df = pd.read_csv(output_file)
     counter = 0
     # data= df[(df['app_name'] == "CORRACT") & (df['form_name'] == "CORRACT_EXTENSION_REASSIGNMENT_REQUEST")]
     # print(data)
-    for app_name, f_name in zip(application_name, form_name):
+    for app_name, f_name in zip(application_name[::5], form_name[::5]):
         counter += 1
         count = len(df[(df['app_name'] == app_name) & (df['form_name'] == f_name)])
         print("{}. {} - {} => count {}".format(counter, app_name, f_name, count))
@@ -127,7 +140,7 @@ def test_csv():
     false_case = df['success'].value_counts()
     print(true_case, false_case)
 
-test_csv()
+# test_csv()
 
 # Iterate until all combinations have at least 10 valid responses or max_count is reached
 # while max_count <= 5000:
