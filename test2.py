@@ -70,8 +70,8 @@ def process_api(app_name, f_name):
     valid_response_count = 0
     # Iterate over the count for the given app_name and f_name until we get 10 valid responses or reach max_count
 
-    counter = 0
-    max_count = 3000
+    counter = 1
+    max_count = 2
     with ThreadPoolExecutor(max_workers=500) as executor:
         args_list = [(count, app_name, f_name) for count in range(1, max_count + 1)]
         result_gen = executor.map(lambda args: fetch_data(*args), args_list)
@@ -80,17 +80,23 @@ def process_api(app_name, f_name):
         res = deepcopy(result_gen.__next__())
         count, app_name, f_name = result.get('doc_id'), result.get('app_name'), result.get('form_name')
         counter += 1
+        # print(res['form_name'], res[''])
+        # break
         if res.get('success'):
             all_data_for_api.append(res)
             valid_response_count += 1
             if valid_response_count == 10:
                 break
         else:
+            print("Else Condition", counter, max_count, f"""{ (
+                    app_name + "->" + f_name not in [app.get('app_name') + "->" + app.get('form_name') for app in
+                                                     all_data_for_api])}")""")
             if counter == max_count and (
                     app_name + "->" + f_name not in [app.get('app_name') + "->" + app.get('form_name') for app in
                                                      all_data_for_api]):
                 print(f"Error processing API {count} for {app_name}/{f_name}")
                 # print("appending: ", etq_doc)
+                print("Res: ", res)
                 all_data_for_api.append(res)
     if len(all_data_for_api) > 0:
         df = pd.DataFrame(all_data_for_api)
@@ -125,7 +131,7 @@ process_app_data()
 def test_csv():
     df = pd.read_csv(output_file)
     counter = 0
-    for app_name, f_name in zip(application_name[::5], form_name[::5]):
+    for app_name, f_name in zip(application_name[::5], form_name[::1]):
         counter += 1
         count = len(df[(df['app_name'] == app_name) & (df['form_name'] == f_name)])
         print("{}. {} - {} => count {}".format(counter, app_name, f_name, count))
